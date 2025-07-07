@@ -4,7 +4,7 @@
 }
 
 header {
-  height: 55vh;
+  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,4 +22,14 @@ header::before {
   bottom: 0;
   clip-path: polygon(0 0, 100% 0, 100% 53%, 0 100%);
   background-color: #0891b2;
+}
+
+.header-figure {
+  width: 25vw;
+  height: 58vh;
+}
+
+.about-me {
+  height: 48vh;
+  width: 60vw;
 }
