@@ -1,0 +1,25 @@
+* {
+  border: 1px solid black;
+  margin: 0;
+}
+
+header {
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 2rem;
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  clip-path: polygon(0 0, 100% 0, 100% 53%, 0 100%);
+  background-color: #0891b2;
+}
