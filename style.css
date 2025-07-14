@@ -1,6 +1,12 @@
 * {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin: 0;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
 }
 
 header {
@@ -21,6 +27,10 @@ header::before {
   right: 0;
   bottom: 0;
   clip-path: polygon(0 0, 100% 0, 100% 53%, 0 100%);
+}
+
+header::before,
+footer {
   background-color: #0891b2;
 }
 
@@ -61,4 +71,13 @@ main {
 
 .project-details {
   padding: 1.5rem;
+}
+
+footer {
+  display: flex;
+  padding: 3rem;
+}
+
+footer img {
+  max-width: 700px;
 }
