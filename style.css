@@ -10,12 +10,12 @@ body {
 }
 
 header {
-  height: 60vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  padding: 2rem;
+  padding: 4rem;
 }
 
 header::before {
@@ -34,9 +34,20 @@ footer {
   background-color: #0891b2;
 }
 
-.header-figure {
-  width: 25vw;
-  height: 58vh;
+.header-image-and-title {
+  position: relative;
+}
+
+.header-image-and-title h1 {
+  position: absolute;
+  text-align: center;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+header img {
+  max-width: 27vw;
 }
 
 .about-me {
