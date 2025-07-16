@@ -1,3 +1,15 @@
+@font-face {
+  font-family: Roboto;
+  src: url(/fonts/Roboto-VariableFont_wdth\,wght.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Playfair Display;
+  src: url(fonts/PlayfairDisplay-VariableFont_wght.ttf);
+  font-weight: normal;
+}
+
 * {
   /* border: 1px solid black; */
   margin: 0;
@@ -44,6 +56,11 @@ footer {
   top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+  font-family: Playfair Display;
+  color: white;
+  font-size: 2.8rem;
+  width: 100%;
 }
 
 header img {
@@ -51,14 +68,14 @@ header img {
 }
 
 .about-me {
-  height: 45vh;
+  height: 41vh;
   width: 55vw;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2rem;
   background-color: white;
   padding: 4rem 1rem;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .about-me > h2,
@@ -67,11 +84,21 @@ header img {
   margin: 0 2rem;
 }
 
+.about-me > h2 {
+  font-family: Playfair Display, sans-serif;
+  font-size: 2rem;
+}
+
+.about-me > p {
+  font-family: Roboto, sans-serif;
+  color: #575655;
+}
+
 .social-media-links-header {
   display: flex;
   justify-content: end;
   gap: 2rem;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .social-media-links-header svg {
