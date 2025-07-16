@@ -115,14 +115,24 @@ header img {
 }
 
 main {
-  padding: 1rem 3rem;
+  padding: 1rem 5.5rem 4.5rem;
   border: 1px solid green;
 }
 
 main > h3 {
-  font-family: Playfair Display;
+  font-family: Playfair Display, sans-serif;
   font-size: 1.6rem;
-  padding-bottom: 1.4rem;
+  padding-bottom: 2.5rem;
+}
+
+main h4 {
+  font-family: Playfair Display, sans-serif;
+  font-size: 1.3rem;
+}
+
+main p {
+  font-family: Roboto;
+  font-size: 1rem;
 }
 
 .projects-section {
@@ -136,10 +146,14 @@ main img {
 }
 
 .project {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   min-height: 50vh;
   display: flex;
   flex-direction: column;
+
+  box-shadow: 0px 0px 20px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 20px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 20px -7px rgba(0, 0, 0, 0.75);
 }
 
 .project-screenshot {
@@ -154,6 +168,9 @@ main img {
 
 .project-details {
   padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
 }
 
 footer {
