@@ -63,7 +63,7 @@ footer {
   width: 100%;
 }
 
-header img {
+.header-image {
   max-width: 27vw;
 
   box-shadow: 4px 5px 14px -4px rgba(0, 0, 0, 0.75);
@@ -110,7 +110,7 @@ header img {
   /* border: 1px solid red; */
 }
 
-.social-media-links-header svg {
+.social-media-links-header img {
   width: 2vw;
 }
 
