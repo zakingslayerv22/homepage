@@ -115,7 +115,14 @@ header img {
 }
 
 main {
-  padding: 0 3rem;
+  padding: 1rem 3rem;
+  border: 1px solid green;
+}
+
+main > h3 {
+  font-family: Playfair Display;
+  font-size: 1.6rem;
+  padding-bottom: 1.4rem;
 }
 
 .projects-section {
@@ -124,7 +131,12 @@ main {
   gap: 2rem;
 }
 
+main img {
+  width: 1.8vw;
+}
+
 .project {
+  border: 1px solid green;
   min-height: 50vh;
   display: flex;
   flex-direction: column;
@@ -132,6 +144,7 @@ main {
 
 .project-screenshot {
   flex: 1;
+  background-color: red;
 }
 
 .title-and-links {
