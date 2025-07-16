@@ -65,6 +65,10 @@ footer {
 
 header img {
   max-width: 27vw;
+
+  box-shadow: 4px 5px 14px -4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 4px 5px 14px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 5px 14px -4px rgba(0, 0, 0, 0.75);
 }
 
 .about-me {
@@ -76,6 +80,10 @@ header img {
   background-color: white;
   padding: 4rem 1rem;
   /* border: 1px solid red; */
+
+  box-shadow: 4px 5px 14px -4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 4px 5px 14px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 5px 14px -4px rgba(0, 0, 0, 0.75);
 }
 
 .about-me > h2,
@@ -92,6 +100,7 @@ header img {
 .about-me > p {
   font-family: Roboto, sans-serif;
   color: #575655;
+  font-size: 1.1rem;
 }
 
 .social-media-links-header {
