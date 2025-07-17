@@ -175,9 +175,32 @@ main img {
 
 footer {
   display: flex;
+  gap: 3rem;
   padding: 3rem;
 }
 
+.contact-details {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact-details > h4 {
+  font-family: Playfair Display, sans-serif;
+  font-size: 1.5rem;
+}
+
+.contact-details > h4,
+.contact-details > p {
+  color: white;
+}
+
+.contact-details > p {
+  font-family: Roboto, sans-serif;
+  font-size: 1.1rem;
+}
+
 footer img {
-  max-width: 700px;
+  max-width: 55vw;
 }
