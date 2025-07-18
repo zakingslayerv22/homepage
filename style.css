@@ -180,7 +180,7 @@ footer {
 }
 
 .contact-details {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -188,7 +188,7 @@ footer {
 
 .contact-details > h4 {
   font-family: Playfair Display, sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.9rem;
 }
 
 .contact-details > h4,
@@ -196,11 +196,38 @@ footer {
   color: white;
 }
 
-.contact-details > p {
+.contact-details > p,
+.phone-container,
+.email-container {
   font-family: Roboto, sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+}
+
+.phone-container,
+.email-container {
+  display: flex;
+  gap: 0.5rem;
+  /* border: 1px solid red; */
+}
+
+.phone-number,
+.email-address {
+  align-self: center;
+}
+
+.social-media-links {
+  /* border: 1px solid red; */
+  display: flex;
+  gap: 1.5rem;
+  padding-top: 0.9rem;
+}
+
+.social-media-links img {
+  width: 2vw;
 }
 
 footer img {
-  max-width: 55vw;
+  max-width: 54vw;
 }
