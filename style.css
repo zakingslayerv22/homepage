@@ -74,7 +74,7 @@ footer {
 .about-me {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.2rem;
   background-color: white;
   padding: 5rem 1rem;
   /* border: 1px solid red; */
@@ -242,7 +242,10 @@ footer img {
   }
 
   .header-image-and-title h1 {
-    color: red;
+    position: absolute;
+    top: -45%;
+    transform: translate(50%, 25%);
+    font-size: 2rem;
   }
 
   .header-image {
@@ -254,9 +257,13 @@ footer img {
     padding: 3.5rem 1.5rem;
   }
 
-  .about-me > p {
-    font-size: 1.3rem;
+  .about-me > h2 {
+    font-size: 1.7rem;
   }
+
+  /* .about-me > p {
+    font-size: 1.3rem;
+  } */
 
   .social-media-links-header {
     display: none;
