@@ -72,13 +72,11 @@ footer {
 }
 
 .about-me {
-  height: 41vh;
-  width: 55vw;
   display: flex;
   flex-direction: column;
   gap: 2rem;
   background-color: white;
-  padding: 4rem 1rem;
+  padding: 5rem 1rem;
   /* border: 1px solid red; */
 
   box-shadow: 4px 5px 14px -4px rgba(0, 0, 0, 0.75);
@@ -232,7 +230,7 @@ footer img {
   max-width: 50vw;
 }
 
-@media (min-width: 600px) and (max-width: 768px) {
+@media (min-width: 600px) and (max-width: 1000px) {
   /* Styles for medium screens (e.g., tablets) */
 
   header::before {
@@ -240,7 +238,7 @@ footer img {
   }
 
   header {
-    padding-top: 3rem;
+    padding-top: 6rem;
   }
 
   .header-image-and-title h1 {
@@ -248,11 +246,16 @@ footer img {
   }
 
   .header-image {
-    position: absolute;
+    position: relative;
+    left: 10%;
   }
 
   .about-me {
-    min-width: 75vw;
+    padding: 3.5rem 1.5rem;
+  }
+
+  .about-me > p {
+    font-size: 1.3rem;
   }
 
   .social-media-links-header {
