@@ -239,6 +239,7 @@ footer img {
 
   header {
     padding-top: 6rem;
+    padding-bottom: 3rem;
   }
 
   .header-image-and-title h1 {
@@ -261,11 +262,23 @@ footer img {
     font-size: 1.7rem;
   }
 
-  /* .about-me > p {
-    font-size: 1.3rem;
-  } */
-
   .social-media-links-header {
     display: none;
+  }
+
+  .projects-section {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .project {
+    min-height: 33vh;
+  }
+
+  footer {
+    gap: 1.5rem;
+  }
+
+  .footer-image {
+    align-self: center;
   }
 }
