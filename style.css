@@ -22,12 +22,11 @@ body {
 }
 
 header {
-  max-height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  padding: 4rem 5rem;
+  padding: 3rem 5rem;
 }
 
 header::before {
@@ -38,7 +37,7 @@ header::before {
   left: 0;
   right: 0;
   bottom: 0;
-  clip-path: polygon(0 0, 100% 0, 100% 53%, 0 100%);
+  clip-path: polygon(0 0, 100% 0%, 100% 29%, 0 100%);
 }
 
 header::before,
@@ -280,5 +279,33 @@ footer img {
 
   .footer-image {
     align-self: center;
+  }
+}
+
+@media (max-width: 600px) {
+  header::before {
+    clip-path: polygon(0 0, 100% 0%, 100% 29%, 0 45%);
+  }
+
+  header {
+    flex-direction: column;
+    padding-top: 2rem;
+  }
+
+  .header-image {
+    max-width: 82vw;
+  }
+
+  .about-me {
+    padding: 1.5rem;
+    box-shadow: none;
+  }
+
+  .about-me > h2 {
+    text-align: center;
+  }
+
+  .about-me > p {
+    width: 84vw;
   }
 }
