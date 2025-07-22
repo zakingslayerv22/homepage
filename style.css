@@ -11,13 +11,10 @@
 }
 
 * {
-  /* border: 1px solid black; */
   margin: 0;
 }
 
 body {
-  /* display: grid;
-  grid-template-rows: auto 1fr auto; */
   min-height: 100vh;
 }
 
@@ -98,6 +95,10 @@ footer {
   font-family: Roboto, sans-serif;
   color: #575655;
   font-size: 1.1rem;
+}
+
+a {
+  text-decoration: none;
 }
 
 .social-media-links-header {
