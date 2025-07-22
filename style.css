@@ -304,6 +304,7 @@ footer img {
 
   .about-me > h2 {
     text-align: center;
+    padding-top: 0.5rem;
   }
 
   .about-me > p {
@@ -342,13 +343,25 @@ footer img {
   footer {
     flex-direction: column;
     padding-bottom: 0px;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
   }
 
-  .footer-image {
+  .footer-image,
+  .social-media-links {
     align-self: center;
   }
 
   .footer-image img {
     max-width: 100vw;
+  }
+
+  .phone-container > svg,
+  .email-container > svg {
+    display: none;
+  }
+
+  .social-media-links img {
+    width: 6vw;
   }
 }
