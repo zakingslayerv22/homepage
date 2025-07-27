@@ -11,9 +11,16 @@
       <section class="header-image-and-title">
         <picture>
           <img
-            src="images/header-image-large.png"
-            class="header-image"
-            alt="header-image"
+            src="images/header-image-800.webp"
+            srcset="
+              images/header-image-400.webp   400w,
+              images/header-image-800.webp   800w,
+              images/header-image-1200.webp 1200w
+            "
+            sizes="(max-width: 600px) 82vw,
+         (max-width: 1000px) 27vw,
+         27vw"
+            alt="header image"
           />
         </picture>
         <h1>John Smith</h1>
@@ -226,7 +233,7 @@
         <p>
           Please contact me if you think our work would be mutually beneficial!
         </p>
-        <p>1234 Random Road Random Town, New York, 10001</p>
+        <p>1234 Random Road Random Town, New York, 10001.</p>
 
         <div class="phone-container">
           <svg
@@ -276,7 +283,18 @@
         </div>
       </div>
       <picture class="footer-image">
-        <img src="images/footer-image-large.png" alt="" />
+        <img
+          src="images/footer-image-800.webp"
+          srcset="
+            images/footer-image-400.webp   400w,
+            images/footer-image-800.webp   800w,
+            images/footer-image-1200.webp 1200w
+          "
+          sizes="(max-width: 600px) 100vw,
+         (max-width: 1000px) 50vw,
+         50vw"
+          alt=""
+        />
       </picture>
     </footer>
   </body>
